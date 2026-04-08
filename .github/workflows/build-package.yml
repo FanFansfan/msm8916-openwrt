@@ -4,11 +4,13 @@ on:
   workflow_dispatch:
 
 env:
-  TZ: Europe/Madrid
+  TZ: Asia/Shanghai
   PACKAGES: >-
     luci-app-tailscale
     uci-usb-gadget
     luci-app-usb-gadget
+    luci-i18n-base-zh-cn
+    usbutils
 
 jobs:
   build:
