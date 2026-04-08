@@ -9,7 +9,6 @@ env:
     luci-app-tailscale
     uci-usb-gadget
     luci-app-usb-gadget
-    luci-i18n-base-zh-cn
     usbutils
 
 jobs:
